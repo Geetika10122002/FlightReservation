@@ -9,9 +9,9 @@
 
 const mysql = require("mysql2");
 const db = mysql.createConnection({
-    host: "localhost",
-    database: "flightreservation",
-    user: "root",
-    password: "Gee@2002",
+    host: "bsvbvvioawswvdnpzdyk-mysql.services.clever-cloud.com",
+    database: "bsvbvvioawswvdnpzdyk",
+    user: "u6ypspbq7qtb2gfo",
+    password: "cP4ji8jmWwe6ZjG1guOM",
 });
 module.exports = db
